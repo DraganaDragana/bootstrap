@@ -1,0 +1,57 @@
+
+figure {
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+#img-menu {
+    width: 30px;
+}
+
+#hero-section {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#border {
+    border-bottom: 1px solid rgb(194, 191, 191);
+}
+
+#border1 {
+    border-bottom: 1px solid rgb(194, 191, 191);
+}
+
+.borders {
+    border-top: 1px solid grey;
+}
+.borders1 {
+    border-bottom: 1px solid grey;
+}
+
+#footer-bottom{
+    background: rgb(36, 34, 34);
+}
+
+
+
+@media  screen  and (min-width:770px) {
+    #hero-section {
+        background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
